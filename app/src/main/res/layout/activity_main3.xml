@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_background"
+        app:titleTextColor="@color/primaryDarkColor"
+        />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/post1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="69dp"
+                        android:layout_height="59dp"
+                        app:srcCompat="@drawable/ic_baseline_account_circle_24"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yazan Abu ALI"
+                        android:textSize="20dp"
+                        android:textColor="@color/primaryDarkColor"
+                        android:layout_marginLeft="80dp"
+                        android:gravity="start"
+                        android:layout_marginTop="-50dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11:00 PM"
+                        android:layout_marginLeft="80dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="the photo is butefull dfsdf sfssfvdvvxvvds"
+                        android:layout_marginStart="15dp"
+                        android:textColor="@color/primaryDarkColor"
+                        android:layout_marginTop="25dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="254dp"
+                        android:src="@drawable/image2"
+                        />
+                    <com.google.android.material.button.MaterialButtonToggleGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        >
+
+                        <Button
+                            android:id="@+id/Like1"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="111dp"
+                            android:layout_height="wrap_content"
+                            android:text="like"
+                            android:textAllCaps="false"
+                            android:textColor="@color/primaryDarkColor"
+                            android:textSize="18dp"
+                            app:icon="@drawable/ic_baseline_thumb_up_24" />
+
+                        <Button
+                            android:id="@+id/coment1"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="131dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="coment"
+                            android:textAllCaps="false"
+                            android:textColor="@color/primaryDarkColor"
+                            android:textSize="18dp"
+                            app:icon="@drawable/ic_baseline_mark_chat_unread_24" />
+                        <Button
+                            android:id="@+id/shar1"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="share"
+                            android:textAllCaps="false"
+                            android:textSize="18dp"
+                            android:textColor="@color/primaryDarkColor"
+                            app:icon="@drawable/ic_baseline_share_24"
+                            android:gravity="center"
+                            />
+
+                    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/comvisi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        >
+
+                        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                            android:id="@+id/com1"
+                            android:layout_width="match_parent"
+                            android:layout_height="132dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="239dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView4"
+                                    android:layout_width="61dp"
+                                    android:layout_height="79dp"
+                                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                                <TextView
+                                    android:layout_width="236dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="80dp"
+                                    android:text="Ahmed pelal"
+                                    android:layout_marginTop="-50dp"
+                                    android:textColor="@color/primaryDarkColor"
+                                    android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="9:10 PM"
+                                    android:layout_marginStart="85dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="30dp"
+                                    android:text="wwscaccsncacascbajclascjbascjscascbskjabckajscbjcbascbcbasjkcbsjcbaj" />
+
+                            </LinearLayout>
+
+                        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                            android:id="@+id/com2"
+                            android:layout_width="match_parent"
+                            android:layout_height="132dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="239dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView5"
+                                    android:layout_width="61dp"
+                                    android:layout_height="79dp"
+                                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                                <TextView
+                                    android:layout_width="236dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="80dp"
+                                    android:text="Ahmed pelal"
+                                    android:layout_marginTop="-50dp"
+                                    android:textColor="@color/primaryDarkColor"
+                                    android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="9:10 PM"
+                                    android:layout_marginStart="85dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="30dp"
+                                    android:text="wwscaccsncacascbajclascjbascjscascbskjabckajscbjcbascbcbasjkcbsjcbaj" />
+
+                            </LinearLayout>
+
+                        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                            android:id="@+id/com3"
+                            android:layout_width="match_parent"
+                            android:layout_height="132dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="239dp"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/imageView6"
+                                    android:layout_width="61dp"
+                                    android:layout_height="79dp"
+                                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                                <TextView
+                                    android:layout_width="236dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="80dp"
+                                    android:text="Ahmed pelal"
+                                    android:layout_marginTop="-50dp"
+                                    android:textColor="@color/primaryDarkColor"
+                                    android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="9:10 PM"
+                                    android:layout_marginStart="85dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="30dp"
+                                    android:text="wwscaccsncacascbajclascjbascjscascbskjabckajscbjcbascbcbasjkcbsjcbaj" />
+
+                            </LinearLayout>
+
+                        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/post2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                app:cardElevation="50dp"
+                app:cardCornerRadius="20dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="69dp"
+                        android:layout_height="59dp"
+                        app:srcCompat="@drawable/ic_baseline_account_circle_24"
+                        android:layout_marginTop="10dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Yazan Abu ALI"
+                        android:textSize="20dp"
+                        android:textColor="@color/primaryDarkColor"
+                        android:layout_marginLeft="80dp"
+                        android:gravity="start"
+                        android:layout_marginTop="-50dp"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="11:00 PM"
+                        android:layout_marginLeft="80dp"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="the photo is butefull dfsdf sfssfvdvvxvvds"
+                        android:layout_marginStart="15dp"
+                        android:textColor="@color/primaryDarkColor"
+                        android:layout_marginTop="25dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="254dp"
+                        android:src="@drawable/image2"
+                        />
+                    <com.google.android.material.button.MaterialButtonToggleGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        >
+
+                        <Button
+                            android:id="@+id/Like2"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="111dp"
+                            android:layout_height="wrap_content"
+                            android:text="like"
+                            android:textAllCaps="false"
+                            android:textColor="@color/primaryDarkColor"
+                            android:textSize="18dp"
+                            app:icon="@drawable/ic_baseline_thumb_up_24" />
+
+                        <Button
+                            android:id="@+id/coment2"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="131dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="coment"
+                            android:textAllCaps="false"
+                            android:textColor="@color/primaryDarkColor"
+                            android:textSize="18dp"
+                            app:icon="@drawable/ic_baseline_mark_chat_unread_24" />
+                        <Button
+                            android:id="@+id/shar2"
+                            style="@style/Widget.MaterialComponents.Button.TextButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="share"
+                            android:textAllCaps="false"
+                            android:textSize="18dp"
+                            android:textColor="@color/primaryDarkColor"
+                            app:icon="@drawable/ic_baseline_share_24"
+                            android:gravity="center"
+                            />
+
+
+                    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                    <LinearLayout
+                        android:id="@+id/comvisi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        >
+
+                        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <ImageView
+                                    android:id="@+id/imageView7"
+                                    android:layout_width="61dp"
+                                    android:layout_height="79dp"
+                                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                                <TextView
+                                    android:layout_width="236dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="80dp"
+                                    android:text="Ahmed pelal"
+                                    android:layout_marginTop="-50dp"
+                                    android:textColor="@color/primaryDarkColor"
+                                    android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="9:10 PM"
+                                    android:layout_marginStart="85dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="30dp"
+                                    android:text="wwscaccsncacascbajclascjbascjscascbskjabckajscbjcbascbcbasjkcbsjcbaj" />
+
+                            </LinearLayout>
+                        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+
+                        <com.google.android.material.circularreveal.cardview.CircularRevealCardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            >
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                >
+                                <ImageView
+                                    android:id="@+id/imageView8"
+                                    android:layout_width="61dp"
+                                    android:layout_height="79dp"
+                                    app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+                                <TextView
+                                    android:layout_width="236dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="80dp"
+                                    android:text="Ahmed pelal"
+                                    android:layout_marginTop="-50dp"
+                                    android:textColor="@color/primaryDarkColor"
+                                    android:textSize="15dp" />
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="9:10 PM"
+                                    android:layout_marginStart="85dp"
+                                    />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="75dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="30dp"
+                                    android:text="wwscaccsncacascbajclascjbascjscascbskjabckajscbjcbascbcbasjkcbsjcbaj" />
+
+                            </LinearLayout>
+                        </com.google.android.material.circularreveal.cardview.CircularRevealCardView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_add_ic_call_24"
+        android:backgroundTint="@color/design_default_color_secondary_variant"
+        app:layout_anchor="@id/bottomappbar"
+        app:fabAnimationMode="scale"
+        app:fabAlignmentMode="end"
+        app:fabCradleRoundedCornerRadius="1000dp"
+        />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomappbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hideOnScroll="true"
+        app:fabAnimationMode="slide"
+        style="@style/Widget.MaterialComponents.BottomAppBar.PrimarySurface"
+        android:layout_gravity="bottom"
+        />
+
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

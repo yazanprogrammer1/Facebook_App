@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/drawable/email.xml" value="0.141" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.141" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/drawable/ic_baseline_email_25.xml" value="0.141" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.188" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/layout/activity_main3.xml" value="0.26313405797101447" />
+        <entry key="..\:/Users/khatib/Android java/Facebook/app/src/main/res/menu/actionitem.xml" value="0.1712962962962963" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/boton.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1405" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1405" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1405" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/ic_baseline_thumb_up_24.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/like.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/menu-48px.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/drawable/thumb_up-48px.xml" value="0.1285" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/layout/activity_main2.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/layout/activity_main3.xml" value="0.2" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/layout/activity_main4.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/khatib/Facebook/app/src/main/res/menu/actionitem.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

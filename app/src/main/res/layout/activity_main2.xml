@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    >
+
+
+    <TextView
+        android:id="@+id/textone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:textSize="40dp"
+        android:textColor="@color/primaryDarkColor"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textscan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In the Facebook"
+        android:textSize="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="17dp"
+        android:textColor="@color/primaryDarkColor"
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        android:orientation="vertical"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+        app:endIconMode="clear_text"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="11"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        android:orientation="vertical"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        app:endIconMode="password_toggle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="10" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/confarmpassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confarm Password"
+        app:startIconDrawable="@drawable/ic_baseline_lock_24"
+        android:orientation="vertical"
+        app:counterEnabled="true"
+        app:counterMaxLength="8"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        app:endIconMode="password_toggle"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="10"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Email"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Email"
+        android:orientation="vertical"
+        app:startIconDrawable="@drawable/ic_baseline_email_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginRight="13dp"
+        >
+        <Button
+            android:id="@+id/SignUp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:textColor="@color/primaryDarkColor"
+            app:strokeColor="@color/primaryDarkColor"
+            />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/secondaryTextColor"
+            />
+
+
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+</LinearLayout>
